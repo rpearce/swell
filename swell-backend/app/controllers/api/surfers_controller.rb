@@ -1,7 +1,7 @@
 class Api::SurfersController < ApplicationController
   def index
     @surfers = Surfer.all
-    render json: @surfers
+    #render json: @surfers
   end
 
   def create
