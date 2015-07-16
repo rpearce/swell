@@ -1,10 +1,10 @@
 (function () {
   'use strict';
-  // 10.0.10.34:3000
+  // local:3000
   angular
     .module('swell.surfers')
     .factory('SurfersService', function ($http, $rootScope) {
-      var url = 'http://10.0.10.34/api/surfers';
+      var url = 'http://localhost:3000/api/surfers';
       return {
         getSurfers: getSurfers,
         getSurfer: getSurfer,
